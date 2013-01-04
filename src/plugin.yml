@@ -1,0 +1,5 @@
+main: org.meekers.plugins.aura.Aura
+name: Aura
+version: 1.0
+author: Jared Meeker
+description: Repel MOBs with high experience
