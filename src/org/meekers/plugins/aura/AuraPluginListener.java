@@ -46,27 +46,27 @@ class AuraPluginListener implements Listener {
             int enxp = plugin.getConfig().getInt("enxp");
 
             // Zombie
-            if (playerxp >= zoxp && e.getType() == EntityType.ZOMBIE) {
+            if (zoxp > 0 && playerxp >= zoxp && e.getType() == EntityType.ZOMBIE) {
                 repel = true;
             }
             
             // Spider
-            if (playerxp >= spxp && e.getType() == EntityType.SPIDER) {
+            if (spxp > 0 && playerxp >= spxp && e.getType() == EntityType.SPIDER) {
                 repel = true;
             }
             
             // Skeleton
-            if (playerxp >= skxp && e.getType() == EntityType.SKELETON) {
+            if (skxp > 0 && playerxp >= skxp && e.getType() == EntityType.SKELETON) {
                 repel = true;
             }
 
             // Creeper
-            if (playerxp >= crxp && e.getType() == EntityType.CREEPER) {
+            if (crxp > 0 && playerxp >= crxp && e.getType() == EntityType.CREEPER) {
                 repel = true;
             }
             
             // Enderman
-            if (playerxp >= enxp && e.getType() == EntityType.ENDERMAN) {
+            if (enxp > 0 && playerxp >= enxp && e.getType() == EntityType.ENDERMAN) {
                 repel = true;
             }
             
