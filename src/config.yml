@@ -1,1 +1,20 @@
-minxp: 20
+# How fast the mobs move away
+repelspeed: 0.20
+
+# To disable any of the effects below, just set them to zero.
+
+# Zombies
+zoxp: 10
+
+# Spiders
+spxp: 20
+
+# Skeletons
+skxp: 30
+
+# Creepers
+crxp: 40
+
+# Endermen
+enxp: 50
+
